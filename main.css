@@ -6,8 +6,8 @@ body{
     font-family: sans-serif;
 }
 #logo{
-    max-height: 500px;
-    max-width: 500px;
+    max-height: 300px;
+    max-width: 300px;
     width: 100%;
 }
 footer{
@@ -18,7 +18,10 @@ footer{
     width: 100%;
     background-color: white;
 }
-a:hover {}
+a:hover {
+    text-decoration: underline;
+}
 a{
     text-decoration: none;
+    padding: 5px 30px;
 }
